@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2WG0D4YVJP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2WG0D4YVJP');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Purchase!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+        .container-shadow {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.03);
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <div class="bg-white rounded-lg container-shadow p-6 md:p-8 lg:p-10 max-w-2xl w-full text-center">
+        <!-- Success Icon -->
+        <div class="mb-6">
+            <svg class="w-16 h-16 mx-auto text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+        </div>
+
+        <!-- Main Heading -->
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Thank You for Your Purchase!
+        </h1>
+
+        <!-- Confirmation Message -->
+        <p class="text-base md:text-lg text-gray-600 mb-6">
+            Your order has been successfully placed and is now being processed.
+        </p>
+
+        <!-- Order Details Section -->
+        <div class="bg-gray-50 rounded-md p-4 mb-6">
+            <h2 class="text-xl md:text-2xl font-semibold text-gray-700 mb-3">Order Details</h2>
+            <div class="flex flex-col sm:flex-row justify-around items-center text-gray-700">
+                <p class="mb-2 sm:mb-0"><strong>Order ID:</strong> <span class="text-blue-600 font-medium">#ABC123DEF456</span></p>
+                <p><strong>Order Date:</strong> <span class="font-medium">June 25, 2025</span></p>
+            </div>
+        </div>
+
+        <!-- Next Steps -->
+        <div class="mb-8">
+            <h2 class="text-xl md:text-2xl font-semibold text-gray-700 mb-3">What's Next?</h2>
+            <ul class="list-disc list-inside text-left mx-auto max-w-sm text-gray-600 space-y-2">
+                <li>You will receive an email confirmation shortly with your order details and tracking information.</li>
+                <li>Your order will be shipped within 1-2 business days.</li>
+                <li>For any questions, please contact our support team at <a href="mailto:support@yourecom.com" class="text-blue-600 hover:underline">support@yourecom.com</a>.</li>
+            </ul>
+        </div>
+
+        <!-- Call to Action Buttons -->
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-md transition duration-300 transform hover:scale-105">
+                View Order Status
+            </a>
+            <a href="#" class="inline-block bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-3 px-6 rounded-md transition duration-300 transform hover:scale-105">
+                Continue Shopping
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
